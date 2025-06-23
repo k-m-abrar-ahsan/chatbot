@@ -4,7 +4,7 @@ from llama_cpp import Llama
 
 # Load LLaMA model
 llm = Llama(
-    model_path="meta-llama/llama-2-13b.Q4_K_M.gguf",
+    model_path="models/llama-2-13b.Q4_K_M.gguf",
     n_ctx=4096,
     n_gpu_layers=32
 )
